@@ -8,7 +8,7 @@ root = Tk()
 root.geometry("400x400")
 root.title("Getallen raden spel")
 
-# Hier geneer je het nummer..
+# Hier geneer je het nummer...
 def GenerateNumberFunc():
     global Number
     Number = randint(1, 25)
